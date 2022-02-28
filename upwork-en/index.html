@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upwork EN</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/940f976649.js" crossorigin="anonymous"></script>
+  <!-- <style>
+  p,a{
+    font-family: Neue Montreal;
+  }
+</style> -->
+</head>
+
+<body>
+  <div class="container px-5 py-2  ">
+    <div class="position-sticky sticky-lg-top" style="background-color: white;">
+      <!-- navbar -->
+      <nav class="position-sticky sticky-lg-top navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+          <img src="images/Upwork_Logo.svg.png" class="img-fluid" style="height: 30px" alt="" />
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Find Talent
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Find Work
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Why Upwork
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              </li>
+              <li class="nav-item active mx-3">
+                <a class="nav-link" href="#">Enterprise</a>
+              </li>
+
+              <form class="form-inline my-2 my-lg-0 d-flex mx-3">
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-magnifying-glass position-absolute m-2 pt-1 " style="z-index: 1;"></i>
+                  
+                <input class="form-control mr-sm-2 me-2 px-5 position-relative" style="border-radius: 25px;" type="search"
+                placeholder="Search" aria-label="Search"></input>
+                </div>
+
+
+
+
+
+
+                <a class="nav-link" href="#">LogIn</a>
+                <button class="btn btn-outline-success my-2 my-sm-0 px-4 mx-2 text-light"
+                  style="border-radius: 25px; background-color: #17ad13" type="submit">
+                  SignUp
+                </button>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar finished -->
+      <hr />
+      <div class="d-flex sticky-top mb-3">
+        <a class="nav-link text-black-50" href="#">Development & IT</a>
+        <a class="nav-link text-black-50" href="#">Design & Creative</a>
+        <a class="nav-link text-black-50" href="#">Sales & Marketing</a>
+        <a class="nav-link text-black-50" href="#">Writing & Translation</a>
+        <a class="nav-link text-black-50" href="#">Admin & Customer Support</a>
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle text-black-50" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Finance & Accounting</a>
+            <a class="dropdown-item" href="#">HR & Training</a>
+            <a class="dropdown-item" href="#">Legal</a>
+            <a class="dropdown-item" href="#">Engineering & Architecture</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar finished -->
+
+    <div class="container d-flex ">
+      <div class="row m-1">
+        <div class="col mt-5">
+          <h1 style="color: #17ad13; font: 5rem Neue Montreal;">How work<br> should work</h1>
+          <p class="text-black-50" style="font-size: 1.5rem;">Forget the old rules. You can have the best people.<br>
+            Right now. Right here.</p>
+          <div class="d-flex mt-4 mb-5">
+            <button type="button" style="border-radius: 25px; background-color: #17ad13; "
+              class="btn btn-success m-lg-2 px-4">Find Talent</button>
+            <button type="button" style="border-radius: 25px; color: #17ad13; border-color: #17ad13;"
+              class="btn btn-outline-success m-lg-2 px-4">Find Work</button>
+          </div>
+          <p class="text-black-50" style="font-size: 1.1rem;">Trusted by</p>
+          <div class="d-flex">
+            <img src="images/microsoft.logo.jpg" style="height: 40px;" class="" alt="">
+            <img src="images/airbnb.logo.jpg" style="height: 40px;" class="mx-3" alt="">
+            <img src="images/bissell.logo.jpg" style="height: 40px;" class="mx-3" alt="">
+            <img src="images/godaddy.logo.jpg" style="height: 40px;" class="mx-3" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col mt-5 mx-5">
+        <img src="	https://www.upwork.com/static/assets/Brontes/e5a44390/img/globe-2x.f4bd209.jpg" style="height:500px;"
+          alt="">
+      </div>
+    </div>
+
+    <!-- değişecek bölüm -->
+    <div class="mt-5">
+      <img src="images/degisecek.jpg" style="height: 550px" class="" alt="">
+    </div>
+
+    <!-- why businesses turn to upwork -->
+    <div class="container mt-5">
+      <div class="row ">
+        <div class="col-7 " style="background-color: #EAF2E8; box-sizing: border-box ;">
+          <h1 style="color: black; font: 4rem Neue Montreal;" class="mt-5 mx-3">Why businesses<br>
+            turn to Upwork</h1>
+          <div class="d-flex pt-4 ml-5 p-lg-3" style="box-sizing: border-box; height: 25px;">
+            <img src="images/point.bmp" class="mt-2" style="height:25px" alt="">
+            <h2 class=" mx-3 font-weight-bold text-center " style="color:black">Proof of quality</h2>
+
+          </div>
+          <div class="d-flex ml-5 p-lg-3 mt-3">
+            <img src="images/area.bmp" class="mt-2" style="height:20px;" alt="">
+            <p class="ml-5 pl-5 text-black-50 mx-3">Check any pro’s work samples, client reviews, and <br>identity
+              verification.</p>
+          </div>
+
+          <div class="d-flex pt-4 ml-5 p-lg-3" style="box-sizing: border-box; height: 25px;">
+            <img src="images/point2.bmp" class="mt-2" style="height:30px" alt="">
+            <h2 class=" mx-3 font-weight-bold text-center " style="color:black">No cost until you hire</h2>
+
+          </div>
+          <div class="d-flex ml-5 p-lg-3 mt-3">
+            <img src="images/area.bmp" class="mt-2" style="height:20px;" alt="">
+            <p class="ml-5 pl-5 text-black-50 mx-3">Interview potential fits for your job, negotiate rates, and<br> only
+              pay for work you approve.</p>
+          </div>
+
+          <div class="d-flex pt-4 ml-5 p-lg-3" style="box-sizing: border-box; height: 25px;">
+            <img src="images/point3.bmp" class="mt-2" style="height:30px" alt="">
+            <h2 class=" mx-3 font-weight-bold text-center " style="color:black">Safe and secure</h2>
+
+          </div>
+          <div class="d-flex ml-5 p-lg-3 mt-3">
+            <img src="images/area.bmp" class="mt-2" style="height:20px;" alt="">
+            <p class="ml-5 pl-5 text-black-50 mx-3">Focus on your work knowing we help protect your data<br> and
+              privacy. We’re here with 24/7 support if you need it.</p>
+          </div>
+
+        </div>
+
+
+
+        <div class="col-4 mx-5 " style="background-color: #17ad13; box-sizing: border-box ;">
+          <div class="" style="margin-top: 60%;">
+            <h2 class="text-light p-3 ">We’re<br>the world’s work<br>marketplace</h2>
+            <div class="d-flex pt-4 ml-5 p-lg-3" style="box-sizing: border-box; height: 25px;">
+              <img src="images/star.bmp" class="mt-2" style="height:30px" alt="">
+              <h2 class=" mx-3 font-weight-bold text-center text-light ">4.9/5</h2>
+
+            </div>
+            <div class="d-flex ml-5 p-lg-3 mt-3">
+              <img src="images/area2.bmp" class="mt-2" style="height:30px;" alt="">
+              <p class="ml-5 pl-5 text-light mx-3" style="font-size: 1.1rem;">Clients rate professionals on Upwork</p>
+            </div>
+
+            <div class="d-flex pt-4 ml-5 p-lg-3" style="box-sizing: border-box; height: 25px;">
+              <img src="images/award.bmp" class="mt-2" style="height:30px" alt="">
+              <h2 class=" mx-3 font-weight-bold text-center text-light " style="font-size: 2.2rem;">Award winner</h2>
+
+            </div>
+            <div class="d-flex ml-5 p-lg-3 mt-3">
+              <img src="images/area2.bmp" class="mt-2" style="height:30px;" alt="">
+              <p class="ml-5 pl-5 text-light mx-3" style="font-size: 1.1rem;">G2’s 2021 Best Software Awards</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- why businesses turn to upwork finished-->
+
+    <!-- hire a pro for any skill -->
+    <div class="container mt-5 mx-5">
+      <div class="row px-5 ">
+        <div class="col ">
+          <h1 style="color: black; font-size: 4rem;">Hire a pro<br>for any skill</h1>
+          <a style="font-size: 2rem; text-decoration: none; color: #17ad13; " href="#">Development & IT</a><br>
+          <a style="font-size: 2rem; text-decoration: none; color: #888C87  ;" href="#">Design & Creative</a><br>
+          <a style="font-size: 2rem; text-decoration: none; color: #888C87  ;" href="#">Writing & Translation</a><br>
+          <a style="font-size: 2rem; text-decoration: none; color: #888C87  ;" href="#">Admin & Customer Support</a><br>
+          <a style="font-size: 2rem; text-decoration: none; color: #888C87  ;" href="#">Finance & Accounting</a><br>
+          <a style="font-size: 2rem; text-decoration: none; color: #888C87  ;" href="#">See all specializations</a><br>
+        </div>
+        <div class="col">
+          <img style="border-radius: 5%; height: 350px;"
+            src="https://www.upwork.com/static/assets/Brontes/e5a44390/img/it.0cda630.jpg" alt=""><br>
+          <button type="button" class="btn btn-outline-secondary mt-5" style="border-radius: 25px;">Back-End
+            Development</button>
+          <button type="button" class="btn btn-outline-secondary mt-5" style="border-radius: 25px;">CMS
+            Development</button><br>
+          <button type="button" class="btn btn-outline-secondary  mt-2" style="border-radius: 25px;">DevOps
+            Engineering</button>
+          <button type="button" class="btn btn-outline-secondary mt-2" style="border-radius: 25px;">Front-End
+            Development</button><br>
+          <button type="button" class="btn btn-outline-secondary mt-2" style="border-radius: 25px;">Full Stack
+            Development</button>
+          <button type="button" class="btn btn-outline-secondary mt-2" style="border-radius: 25px;">Mobile App
+            Development</button><br>
+          <button type="button" class="btn btn-outline-secondary mt-2" style="border-radius: 25px;">System
+            Administration</button>
+          <button type="button" class="btn btn-outline-secondary mt-2" style="border-radius: 25px;">UX/UI
+            Design</button>
+        </div>
+      </div>
+    </div>
+    <!-- hire a pro for any skill finished -->
+
+    <!-- find great work -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-6 mt-5">
+          <img src="https://www.upwork.com/static/assets/Brontes/e5a44390/img/find-great-work.22a75aa.jpg" alt="">
+        </div>
+        <div class="col mt-5" style="background-color: #0D6AB4 ;">
+          <p class="text-light mt-4 mx-3" style="font-size: 1.5rem;">For talent</p>
+          <h1 class="text-light mx-3" style="font-size: 4rem;">Find great<br>work</h1>
+          <p class="text-light mt-4 mx-3" style="font-size: 1.1rem;">Meet clients you’re excited to work with and
+            take<br>your career or business to new heights.</p>
+          <div style="margin-top: 20%;">
+            <hr style="color: white;">
+            <div class="col d-flex">
+              <p class="text-light mx-3" style="font-size: 1.1rem;">Find opportunities<br> for every stage of<br> your
+                freelance<br> career</p>
+              <p class="text-light mx-4" style="font-size: 1.1rem;">Control when,<br> where, and how<br> you work</p>
+              <p class="text-light mx-5" style="font-size: 1.1rem;">Explore different<br> ways to earn</p>
+            </div>
+            <button type="button" class="btn btn-light mt-4 mx-2" style="border-radius: 25px; color: #0D6AB4;">Find
+              Opportunities</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- find great work finished -->
+
+    <!-- what they are saying  -->
+    <div class="container mt-3">
+      <div class="row ">
+        <div class="col-8">
+          <h1 style="color: black; font: 5rem Neue Montreal;" class="mt-5 mx-3">What they're<br>saying</h1>
+
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-9">
+              <img style="border-radius: 10px;" class="mt-5 "
+                src="https://www.upwork.com/static/assets/Brontes/e5a44390/img/cara.c8e470e.jpg" alt="">
+              <p style="color:#17ad13 ; font-size: 1.3rem;" class="mt-4">“The freelance talent we work with are<br> more
+                productive than we ever thought<br> possible.”</p>
+              <hr width="50%">
+              <p style="color: black; font-size: 1.2rem;">Cara Bedford</p>
+              <p style="color: #888C87; font-size: 1.2rem;">Director of Strategic Marketing,<br> CompuVision</p>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-4">
+          <img style="border-radius: 10px; " class="mt-5 "
+            src="https://www.upwork.com/static/assets/Brontes/e5a44390/img/sam.7833003.jpg" alt="">
+          <p style="color:#17ad13 ; font-size: 1.3rem;" class="mt-4">“My relationship with Cara &<br> CompuVision keeps
+            on growing. The<br> projects get larger and more technical<br> every year.”</p>
+          <hr>
+          <p style="color: black; font-size: 1.2rem;">Sam Crockett</p>
+          <p style="color: #888C87; font-size: 1.2rem;">Independent Web Developer</p>
+        </div>
+
+
+      </div>
+
+    </div>
+    <!-- what they are saying finished -->
+
+    <!-- top skills -->
+    <div class="container mt-5 mx-3 mb-5">
+      <div class="row">
+        <div class="col-sm">
+          <a style="font-size: 2rem; text-decoration: none; color: #17ad13; " href="#">Top skills</a><br>
+          <a style="font-size: 2rem; text-decoration: none; color: #888C87  ;" href="#">Trending skills</a><br>
+          <a style="font-size: 2rem; text-decoration: none; color: #888C87  ;" href="#">Top skills in US</a><br>
+          <a style="font-size: 2rem; text-decoration: none; color: #888C87  ;" href="#">Project
+            Catalog<sup><small>TM</small></sup></a><br>
+        </div>
+        <div class="col-sm">
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Data Entry Specialists</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Video Editors</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Data Analyst</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Shopify Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Ruby on Rails
+            Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Android Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Bookkeeper</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Content Writer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Copywriter</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Database Administrator</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Data Scientist</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Front-End Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Game Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Graphic Designer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">iOS Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Java Developer</a><br>
+        </div>
+        <div class="col-sm">
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">JavaScript Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Logo Designer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Mobile App Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">PHP Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Python Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Resume Writer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">SEO Expert</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Social Media Manager</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Software Developer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Software Engineer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Technical Writer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">UI Designer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">UX Designer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Virtual Assistant</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Web Designer</a><br>
+          <a style="font-size: 1.5rem; text-decoration: none; color: #484E52 ; " href="#">Wordpress Developer</a><br>
+        </div>
+      </div>
+    </div>
+    <!-- top-skills end -->
+  </div>
+  <!-- container finished -->
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white" style="background-color: #012305  ">
+    <div class="container p-4 pb-0 ">
+      <section class="" >
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0" style="margin-left: 10%; ">
+            <h5 class="" style="font-size: 12px;">For Clients</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white"  style="text-decoration: none; font-size: 12px;" >How to Hire</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Talent Marketplace</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Project Catalog</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Talent Scout</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Hire an Agency</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Enterprise</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Payroll Services</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Direct Contracts</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Hire Worldwide</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Hire in the USA</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0" style="margin-left: 5%;">
+            <h5 class="" style="font-size: 12px;">For Talent</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >How to Find Work</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Direct Contracts</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Find Freelance Jobs Worldwide</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Find Freelance Jobs in the USA</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0" style="margin-left: 5%;">
+            <h5 class="" style="font-size: 12px;">Resources</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Help & Support</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Success Stories</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Upwork Reviews</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Resources</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Blog</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Community</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Affiliate Program</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0" style="margin-left: 5%;">
+            <h5 class=""  style="font-size: 12px;">Company</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >About Us </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Leadership </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Investor Relations </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Careers </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Our Impact </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Press </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Contact Us </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >Trust, Safety & Security </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none; font-size: 12px;" >UK Modern Slavery Statement </a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      
+
+     
+
+      <hr class="mb-4" />
+
+      <!-- Section: Social media -->
+      <section class="mb-4 ">
+        <div class="d-flex" >
+        <p class="mt-2 me-2">Follow Us</p>
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" style="border-radius:100% ;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" style="border-radius:100% ;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" style="border-radius:100% ;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Youtube -->
+        <a class="btn btn-outline-light btn-floating m-1" style="border-radius:100% ;" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" style="border-radius:100% ;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <div class="d-flex" style="margin-left: 60%;">
+          <p class="mt-2 me-2">Mobile app</p>
+          <a class="btn btn-outline-light btn-floating m-1" style="border-radius:100% ;" href="#!" role="button"><i class="fab fa-apple"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" style="border-radius:100% ;" href="#!" role="button"><i class="fab fa-android"></i></a>
+      </div>
+      </div>
+
+      
+
+      </section>
+      <!-- Section: Social media -->
+
+      <hr class="mb-4" />
+
+      <section class=" ">
+        <div class=" d-flex ">
+          <div class=" text-md-start">
+            <div class="" style="font-size: 12px;">
+              © 2015 - 2022 Upwork® Global Inc.
+            </div>
+          </div>
+          <p style="margin-left: 3%; font-size:12px;" >|</p>
+          <p style="margin-left: 3%; font-size:12px;" >Terms of Service</p>
+          <p style="margin-left: 3%; font-size:12px;" >Privacy Policy</p>
+          <p style="margin-left: 3%; font-size:12px;" >CA Notice at Collection</p>
+          <p style="margin-left: 3%; font-size:12px;" >Cookie Settings</p>
+          <p style="margin-left: 3%; font-size:12px;" >Accebility</p>
+
+          
+        </div>
+      </section>
+
+    </div>
+    <!-- Grid container -->
+
+    
+  </footer>
+  <!-- Footer -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
